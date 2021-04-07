@@ -226,15 +226,23 @@ body {
 .portfolio-list {
   list-style: none;
 }
+.portfolio-jpg {
+  margin-bottom: 20px;
+}
 .portfolio-item-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 0px;
+  margin-bottom: 4px;
 }
 .portfolio-item-text {
   color: var(--additional-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-bottom: 20px;
 }
