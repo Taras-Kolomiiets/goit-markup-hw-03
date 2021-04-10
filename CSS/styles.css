@@ -360,7 +360,6 @@ img {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
-  border: 1px solid var(--border-color);
 }
 .portfolio-jpg {
   display: block;
@@ -369,6 +368,8 @@ img {
 }
 .portfolio-content {
   padding: 20px 24px;
+  border: 1px solid var(--border-color);
+  border-top: 0;
 }
 .portfolio-item-title {
   font-weight: 700;
