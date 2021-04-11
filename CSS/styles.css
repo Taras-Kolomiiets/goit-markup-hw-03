@@ -182,13 +182,16 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.section.advantages {
+  padding-bottom: 0;
+}
 .advantages-list {
   display: flex;
 
   list-style: none;
 }
 .advantages-list-item {
-  flex-basis: calc(100% / 4 - var(--card-set-gap));
+  flex-basis: calc(100% / 4);
   margin-right: 30px;
 }
 .advantages-list-item:last-child {
@@ -222,7 +225,7 @@ img {
   list-style: none;
 }
 .works-list-item {
-  flex-basis: calc(100% / 3 - var(--card-set-gap));
+  flex-basis: calc(100% / 3);
   margin-right: 30px;
 }
 .works-list-item:last-child {
@@ -237,7 +240,7 @@ img {
   display: flex;
 }
 .team-list-item {
-  flex-basis: calc(100% / 4 - var(--card-set-gap));
+  flex-basis: calc(100% / 4);
   margin-right: 30px;
 
   background: var(--primary-white-color);
@@ -270,12 +273,13 @@ img {
 /* Футер */
 .footer {
   background-color: var(--bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
   padding: 0;
-  padding-top: 60px;
 }
 .footer-contacts-nav {
   display: block;
@@ -286,8 +290,9 @@ img {
   margin-bottom: 9px;
 }
 .footer-contacts:last-child {
-  padding-bottom: 60px;
+  margin-bottom: 0;
 }
+
 .address-nav .item {
   margin-bottom: 9px;
   color: var(--contacts-color);
@@ -304,8 +309,6 @@ img {
   color: var(--primary-white-color);
   font-style: normal;
   line-height: 1.71;
-}
-.address-text.footer {
   margin-bottom: 9px;
 }
 
@@ -332,6 +335,7 @@ img {
   color: var(--primary-text-color);
   background-color: var(--buttons-color);
   border-color: var(--buttons-color);
+  border: none;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
